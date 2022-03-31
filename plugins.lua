@@ -87,7 +87,12 @@ return packer.startup(function(use)
   use 'hrsh7th/cmp-nvim-lsp'
   use 'hrsh7th/cmp-nvim-lua'
 
+  -- Markdown
   use 'iamcco/markdown-preview.nvim'
+
+  -- Telescope
+  use "nvim-telescope/telescope.nvim"
+  use 'nvim-telescope/telescope-media-files.nvim'
 
 
   -- 克隆 packer.nvim 后自动设置你的配置

@@ -7,6 +7,7 @@ runtime ./options.vim
 lua require('plugins')
 " 按键映射
 runtime ./keymaps.vim
+lua require('keymaps')
 " 主题管理
 lua require('colorscheme')
 runtime ./plugin/airline.vim
